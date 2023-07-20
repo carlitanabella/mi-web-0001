@@ -1,0 +1,87 @@
+@font-face {
+    font-family: JOST;
+    src: url(../assets/font/static/Jost-Black.ttf);
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 150vh;
+    font-family: JOST;
+}
+
+header {
+    height: 20vh;
+    font-family: JOST;
+
+}
+main {
+    height: 110vh;
+}
+footer {
+    height: 20vh;
+    font-family: JOST;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+     
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+  
+}
+@media screen and (max-width: 660px) {
+
+    header {
+        height: 40vh;
+        font-family: JOST;
+    
+    }
+    main {
+        height: 80vh;
+    }
+    footer {
+        height: 20vh;
+        font-family: JOST;
+        font-size: 0.5rem;
+    }
+    
+    
+
+   
+}
+@media screen and (max-width: 375px) {
+
+    
+   
+}
+@media screen and (max-width: 320px) {
+    header {
+        height: 40vh;
+        font-family: JOST;
+    
+    }
+    main {
+        height: 80vh;
+    }
+    footer {
+        height: 40vh;
+        font-family: JOST;
+    }
+    
+    
+}
